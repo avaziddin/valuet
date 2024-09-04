@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function Loyaut() {
     return (
@@ -26,7 +27,9 @@ function Loyaut() {
                 <div className="flex flex-col gap-4">
                 <div className="w-40 bg-sky-500 h-0.5 "></div>
                 <div className="flex gap-4"><img src="/person.svg" alt="" /><span className="text-gray-500 text-lg">Mike Jakson</span></div>
+        <Link to={"/Login"}>
                 <div className="flex gap-4"><img src="/log out.svg" alt="" /><span className="text-gray-500 text-lg">Log out</span></div>
+                </Link>
             </div>   
             </div>
 

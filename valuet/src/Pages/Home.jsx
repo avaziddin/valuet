@@ -1,10 +1,10 @@
 
-function Overview() {
+function Home() {
     return (
         <>
             <div className="w-full text-[50px] text-white pl-[2%]">
 
-                <h1>Overview</h1>
+                <h1>Home</h1>
             </div>
 
 
@@ -14,4 +14,4 @@ function Overview() {
     )
 }
 
-export default Overview
+export default Home

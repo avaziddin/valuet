@@ -1,4 +1,5 @@
-
+import { Link } from "react-router-dom"
+import Home from "./Home"
 
 function Login() {
   
@@ -20,6 +21,7 @@ function Login() {
             <div className="flex gap-7">
                 <button className="sup  w-28 h-11 text-gray-500 font-bold rounded-lg">SIGN UP</button>
                 <button className="sin w-28 h-11 text-white font-bold rounded-lg">SIGN IN</button>
+                
             </div>
             <p className="text-blue-700 decoration-solid">Forgot your password?</p>
         </div>
